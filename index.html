@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website - Shaik Rahman</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d28074b3e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logoooo.png" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software developer</p>
+                <h1>Hi,I'm <span>Rahman</span><br>From Hydrebad</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/self.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p><li> Welcome to my portfolio website! Here you can find out more about my professional experience and skills. I am a skilled developer with experience in various programming languages such as Python, Java, and JavaScript. I am also proficient in various development tools and frameworks such as Django, React, and Node.js.</li>
+                            <br>
+
+                            <li>During my time as a web development intern at Manac Infotech, I was able to gain valuable experience in website design and development, troubleshooting, and testing. I was able to collaborate effectively with a team of developers to improve website functionality and reduce downtime.</li> 
+                            <br>
+                            
+                            <li>I have also completed several projects, including a To-Do List app and a responsive quiz application. I have experience in developing user-friendly interfaces and conducting thorough testing and debugging to ensure functional compatibility across various devices and browsers.</li> 
+                            <br>
+                            
+                            <li>In addition to my technical skills, I possess soft skills such as communication, time management, collaboration, adaptability, and problem-solving. I recently completed the Deloitte Technology Virtual Experience Program, which allowed me to gain valuable experience in business consulting and strategy development.</li> 
+                            <br>
+                            
+                            <li>I am always eager to take on new challenges and continue developing my skills as a developer. Thank you for visiting my portfolio website!</li></p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End Development</span><br>HTML, CSS, JavaScript and Bootstrap</li>
+                                <li><span>Back-End Development</span><br>Python, React and Django Framework</li>
+                                <li><span>Programming Languages</span><br>Python, Java, c++</li>
+                                <li><span>Databases</span><br>Oracle, MySQL, PostgreSQL, MongoDB</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Jul 2022 - Aug 2023</span><br>Junior Software Developer At INDIATECH IT SOLUTIONS PVT LTD</li>
+                                Click <a href="https://drive.google.com/file/d/1sRry0c3KVEu7HPhut7d2hWoC2CSFVxiN/view">Here</a>
+                            </ul>
+                            <ul>
+                                <li><span>Jan 2022 - May 2022</span><br>Web development intern at Manac infotech</li>
+                                Click <a href="https://drive.google.com/file/d/1sd86NUHzJ3dHI2enKca0z5DiA03fHKvU/view">Here</a>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>MCA from Osmania University.</li>
+                                <li><span>2020</span><br>Bsc (Computer Science) from Telangana University.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>Python programming </span><br>Learning: 100 Days of code:The Complete Python Pro Bootcamp for 2023 at Udemy</li>
+                                Click <a href="https://www.udemy.com/certificate/UC-234d5313-9a84-4dd0-84a1-6d3e0cfe66de/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email">Here</a>
+                                <li><span>Deloitte</span><br>Technology Virtual Experience Program</li>
+                                Click <a href="https://drive.google.com/file/d/1-ynLiPZ2fwn6NH3EiXl5_kfFUNEpf9Ux/view">Here</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <!-- -------------services----------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Front End Web Developer</h2>
+                    <p>Created user-friendly web interfaces using HTML, CSS, and JavaScript.<br>Implemented responsive design for seamless cross-device experiences.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-server"></i>
+                    <h2>Back End Web Developer</h2>
+                    <p>Designed efficient databases and managed data with SQL/NoSQL.
+                       <br> Developed server-side logic for smooth front-end communication.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Full Stack Web Developer</h2>
+                    <p>Delivered end-to-end web solutions covering both front-end and back-end.
+                       <br> Proficient in diverse tech, enabling dynamic web app creation.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+ <!-- -------------------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Django-Ytubers-project</h3>
+                    <p>Developed a fully functional Django-based video sharing website,including user authentication and authorization, using python and html/css/javascript</p>
+                    <a href="https://github.com/ShaikRahman01/Django-Ytubers-project"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Secure multi-part file transfer</h3>
+                    <p>Designed and implemented a secure multipart file transfer system that successsfully addressed identified vulnerabilities in traditional file transfer protocols </p>
+                    <a href="https://github.com/ShaikRahman01/secure-file-transfer"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                     <h3>E-commerce website(RED STORE)</h3>
+                     <p>Developed a fully functional e-commerce website, "RED Store" as a showcase project to demonstrate proficiency in web
+                        development using HTML, CSS, and JavaScript</p>
+                     <a href="https://shaikrahman01.github.io/Redstore.github.io/"><i class="fa-sharp fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------------contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>Shaikrahman136@gmai.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91 7036227773</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shaikrahman01"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/+917036227773"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/ShaikRahman01"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Shaik Rahman's-CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Shaik Rahman.All Rights Reserved</p>
+    </div>
+</div>
+
+
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby2zeyoqtRyVEIHfhMLx_kl-ho6X4CVVuPPhOGFYJXlZAKu2zvnkYK7H_dUWI_2UW1v/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
